@@ -1,0 +1,43 @@
+.overrall-dictionary-container{
+
+}
+header{
+
+}
+.top-header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 3rem;
+gap: 2rem;
+}
+@media screen and (max-width:22.5em) {
+    .top-header{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.left-top-header{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+}
+.book-icon{
+    font-size: 4rem;
+}
+.dictionary-title{
+font-size: 3rem;
+}
+@media screen and (max-width:34.375em) {
+    .book-icon{
+        font-size: 3rem;
+    }
+    .dictionary-title{
+    font-size: 2rem;
+    } 
+}
+.right-top-header form{
+display: flex;
+flex-direction: row;
+gap: 2rem;
+}
