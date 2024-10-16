@@ -1,3 +1,17 @@
 .workcard-overall-container{
 padding: 2rem;
+
+}
+.search-term{
+font-size: 3rem;
+}
+.spinner-overall{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 90vh;
+gap: 1rem;
+}
+.spinner-overall div{
+padding: .5rem;
 }
